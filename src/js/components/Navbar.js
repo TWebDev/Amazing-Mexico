@@ -37,8 +37,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-media-links">
           <a href="https://www.facebook.com/mexicoisamzing/"><img className="main-img" src={fbimg} alt="Facebook"/></a>
-          <a href="https://www.instagram.com/mexicois.amazing/"><img className="main-img" src={twimg} alt="Twitter"/></a>
-          <a href="https://twitter.com/amazing_mexico"><img className="main-img" src={inimg} alt="Instagram"/></a>
+          <a href="https://twitter.com/amazing_mexico"><img className="main-img" src={twimg} alt="Twitter"/></a>
+          <a href="https://www.instagram.com/mexicois.amazing/"><img className="main-img" src={inimg} alt="Instagram"/></a>
         </div>
       </nav>
     </React.Fragment>

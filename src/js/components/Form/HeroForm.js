@@ -1,7 +1,6 @@
 import React from 'react';
 import Fieldinput from './formComponents/Fieldinput';
 import Select from './formPseudoElems/Select';
-import Label from './formPseudoElems/Label';
 import Button from '../Button';
 import { connect } from 'react-redux';
 import * as actions from '../../tools/redux/actions/index';
