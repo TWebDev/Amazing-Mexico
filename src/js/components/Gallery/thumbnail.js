@@ -10,7 +10,7 @@ const Thumbnail = ({imgSrc, handleClick, index}) => {
         data-index={index}
         id={index}
         />
-        <div style={{position: 'absolute', bottom: '10px', right: '20px', color: 'white'}}>{imgSrc.title}</div>
+        <div style={{position: 'absolute', bottom: '10px', right: '20px', color: 'white'}} className="brand-font">{imgSrc.title}</div>
       </div> 
     )
   }

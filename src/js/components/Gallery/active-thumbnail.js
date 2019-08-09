@@ -11,7 +11,7 @@ const ActiveThumbnail = ({activeImg}) => {
           />
           </div>
         <div style={descriptStyle}>
-          <h2>{activeImg.title}</h2>
+          <h2 className="brand-font">{activeImg.title}</h2>
           <p>{activeImg.text}</p>
         </div>
       </div>

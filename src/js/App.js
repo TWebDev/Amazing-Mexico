@@ -5,8 +5,10 @@ import Mimg from '../media/images/main.jpg';
 import Mimgmob from '../media/images/main-mobile.png';
 import Gallery from './components/Gallery/Gallery'
 import Items from './components/Gallery/items-array'
+import AM from '../media/logos/am.png';
 import HeroForm from './components/Form/HeroForm'
 import '../css/App.css';
+import '../media/fonts/webfontkit-20190809-132236/stylesheet.css'
 
 class App extends React.Component {
   
@@ -33,7 +35,7 @@ class App extends React.Component {
               <img src={Mimgmob} className="main-img" alt="beach" />
             </div>
             <div className="main-img-tb">
-              <a href="#form"><h1>Find out how <span className="brand-decoration">Amazing Mexico</span> is</h1></a>
+              <a href="#form"><h1 className="brand-font">Everyone must know how Amazing Mexico is</h1></a>
             </div>
           </div>
           <Gallery />
@@ -46,7 +48,7 @@ class App extends React.Component {
                       <img className="main-img" src={obj.imgSrc} alt={obj.title} />
                     </div>
                     <div className="img-mobile-desc">
-                      <h1>{obj.title}</h1>
+                      <h1 className="brand-font">{obj.title}</h1>
                       <p>{obj.text}</p>
                     </div>
                   </>
@@ -60,7 +62,7 @@ class App extends React.Component {
               <HeroForm />
             </div>
           </div>
-        <footer className="App-footer">Amazing Mexico</footer>
+        <footer className="App-footer"><img src={AM} alt="Amazing Mexico" /></footer>
         </div>
       </React.Fragment>
     );

@@ -1,5 +1,4 @@
 import React from 'react';
-import AM from '../../media/logos/am.png';
 import AMG from '../../media/logos/AM_Logo_Green.png';
 import fbimg from '../../media/logos/Icons_fb.png';
 import twimg from '../../media/logos/Icons_twr.png';
@@ -37,9 +36,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-media-links">
-          <img className="main-img" src={fbimg} alt="Facebook"/>
-          <img className="main-img" src={twimg} alt="Twitter"/>
-          <img className="main-img" src={inimg} alt="Instagram"/>
+          <a href="https://www.facebook.com/mexicoisamzing/"><img className="main-img" src={fbimg} alt="Facebook"/></a>
+          <a href="https://www.instagram.com/mexicois.amazing/"><img className="main-img" src={twimg} alt="Twitter"/></a>
+          <a href="https://twitter.com/amazing_mexico"><img className="main-img" src={inimg} alt="Instagram"/></a>
         </div>
       </nav>
     </React.Fragment>
